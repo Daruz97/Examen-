@@ -1,0 +1,73 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+
+}
+
+body{
+background: url(../Images/lente.jpg);
+width: 100%;
+height: 600px;
+background-size: cover;
+position: fixed; 
+top: 35%;
+background-image: no-repeat;
+
+}
+
+header>.Texto-Principal{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+
+.Título-Principal{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 60px;
+
+
+}
+
+
+.Título-Secundario{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+
+
+}
+@media only screen and (min-width: 768px) {
+    body{
+        width: 100%;
+        
+        }
+
+        header>.Texto-Principal{
+            width: 50%;
+        
+        
+        }
+    .Título-Principal{
+        width: 50%;
+    
+   }
+
+   .Título-Secundario{
+    width: 50%;
+
+
+}
+
+   [class*="col-"] {
+    width: 100%;
+}
+}

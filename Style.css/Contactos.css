@@ -1,0 +1,131 @@
+.Facebook{
+    width: 20px; 
+    height: 20px;
+   
+   }
+   
+   .Twiter{
+    width: 20px; 
+    height: 20px;
+   
+   }
+   
+   .Instagram{
+   width: 20px; 
+   height: 20px;
+   
+   }
+   
+  
+   h1{
+       float: left;
+   }
+   
+   
+   .Menu{
+       float: right; 
+       padding-top: 20px;
+   }
+   
+   .Menu>a{
+       text-decoration: none;
+       padding-top: 10px;
+       padding-right: 20px;
+   }
+   
+   header{
+       font-family: 'Roboto', sans-serif;
+       margin-left: 0.5em;
+       margin-top: 0.5em;
+       padding: 0;
+       height: 100px;
+   }
+
+   .Contactos{
+       margin-left: 1000px;
+       margin-top: 100px;
+   }
+
+   .Map{
+    padding-top: -700px;
+ 
+ }
+ .Texto1{
+     font-family: "roboto"sans-serif;
+     margin-top: 40px;
+     padding-left: -1000px;
+ }
+ .Texto2{
+     font-family: "roboto"sans-serif;
+     margin-top: 50px;
+ }
+ .Letrero{
+     margin-top: -40px;
+     padding-top: -1200px;
+ }
+ .Contactos Input[type='text'], .Contactos Textarea{
+     padding: 7px 6px;
+     width: 294px;
+     border: 1px solid black;
+     resize: none; 
+     box-shadow:0 0 0 3px #EEF5F7;
+     margin: 5px 0;
+ }
+ .Contacto Input[type='submit']{
+     border: 1px solid #CED5D7;
+     box-shadow:0 0 0 3px #EEF5F7;
+     padding: 8px 16px;
+     border-radius: 20px;
+     font-weight: bolder;
+     text-shadow: 1px 1px 0px,red;
+  
+     background: #e4f1f6; 
+     background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+     background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+ 
+ }
+
+ @media only screen and (min-width: 768px) {
+    
+    
+       
+       
+    
+     
+    header{
+        width: 100%;   
+    }
+
+    .Contactos{
+        width: 50%;
+    }
+
+    .Map{
+        width:50%;
+     
+     }
+
+     .Texto1{
+        width: 50%;
+    }
+    .Texto2{
+        width: 50%;
+    }
+    .Letrero{
+        width: 50%;
+    }
+    .Contactos Input[type='text'], .Contactos Textarea{
+        width: 50%;
+    }
+    .Contacto Input[type='submit']{
+        width: 50%;
+    
+    }
+    }
+
+
+    
+   [class*="col-"] {
+    width: 100%;
+}
+

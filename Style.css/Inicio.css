@@ -1,0 +1,159 @@
+.Facebook{
+ width: 20px; 
+ height: 20px;
+
+}
+
+.Twiter{
+ width: 20px; 
+ height: 20px;
+
+}
+
+.Instagram{
+width: 20px; 
+height: 20px;
+
+}
+
+.Box1{
+width: 1525px;
+height: 350px;
+border: 0.3pc solid black;
+background: url(../Images/camera.jpg);
+float: inline-start;
+padding-left:  0.5%; ;
+padding-top: 0.5%;
+padding-right: 0.5%;
+background-position: center;
+}
+
+.Box2{
+ float: right;
+ width: 1500px;
+ height:510px;
+ border: 0.0pc solid black;
+ background: url(../Images/photo.jpg);
+ float: right;
+ margin-top: 1px;
+background-position: right;
+width: 0.1%;
+
+
+
+    }
+
+ .Box3{
+width: 1500px;
+height:510px;
+border: 0.0pc solid black;
+background: url(../Images/Pupila.jpg);
+float: left;
+margin-top: 1px;
+background-position:left;
+width: 0.1%;
+
+
+
+
+        }
+h1{
+    float: left;
+}
+
+
+.Menu{
+    float: right; 
+    padding-top: 20px;
+}
+
+.Menu>a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    padding: 0;
+    height: 100px;
+}
+
+
+
+
+
+
+body{
+
+ background-color: white;
+ font-family: 'Roboto', sans-serif;
+ margin: 1;
+ padding: 1;
+
+}
+
+.Text1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 70px;
+
+}
+.Subtext1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.Text2{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+     text-align: right;
+     font-size: 30px;
+     background-color: red;
+    
+}
+
+
+.Text3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+   
+    .Box1{
+        width: 100%;
+    }
+    .Box2{
+        width: 50%;
+    }
+  
+    .Box3{
+        width: 50%;
+    }
+
+   .Text1{
+     width: 100%;
+   }
+   
+   .Subtext1{
+       width: 100%;
+   }
+   .Text2{
+       width: 100%;
+
+   }
+   .Text3{
+       width: 100%;
+   }
+   [class*="col-"] {
+    width: 100%;
+}
+}
+   

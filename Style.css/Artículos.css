@@ -1,0 +1,186 @@
+.Facebook{
+    width: 20px; 
+    height: 20px;
+   
+   }
+   
+   .Twiter{
+    width: 20px; 
+    height: 20px;
+   
+   }
+   
+   .Instagram{
+   width: 20px; 
+   height: 20px;
+   
+   }
+   
+  
+   h1{
+       float: left;
+   }
+   
+   
+   .Menu{
+       float: right; 
+       padding-top: 20px;
+   }
+   
+   .Menu>a{
+       text-decoration: none;
+       padding-top: 10px;
+       padding-right: 20px;
+   }
+   
+   header{
+       font-family: 'Roboto', sans-serif;
+       margin-left: 0.5em;
+       margin-top: 0.5em;
+       padding: 0;
+       height: 100px;
+   }
+
+  
+
+   
+
+
+
+#Blog h3,h4{
+   text-align: center;
+}
+#Blog .Contenido{
+   display: flex;
+   justify-content: center;
+   flex-wrap: 15px;
+
+}
+#Blog Article{
+   margin: 15px;
+}
+#Blog Image {
+
+   max-width: 280px;
+   padding-left: 15px;
+
+}
+.Imagen1{
+   margin-left: -15px;
+   margin-top: 20px;
+   background-position: center;
+   width: 400px; 
+   height: 200px;
+}
+.Imagen2{
+   margin-left: 15px;
+   margin-top: 20px;
+   background-position: center;
+   width: 400px; 
+   height: 200px;
+
+}
+.Imagen3{
+   margin-left: 15px;
+   margin-top: 20px;
+   background-position: center;
+   width: 400px; 
+   height: 200px;
+
+}
+.Text1{
+   color: grey;
+   font-family: 'Roboto', sans-serif;
+   text-align: justify;
+   font-size: 20px;
+text-align: start;
+
+}
+
+   .Text2{
+
+      color: grey;
+      font-family: 'Roboto', sans-serif;
+      text-align: justify;
+      font-size: 20px;
+   text-align: start;
+
+   }
+   .Text3{
+      color: grey;
+      font-family: 'Roboto', sans-serif;
+      text-align: justify;
+      font-size: 20px;
+   text-align: start;
+
+   }
+   .Caja1{
+       padding-left:150px;
+   } 
+   .Caja2{
+       padding-left: 150px;
+
+   }
+   .Caja3{
+padding-left: 60px;
+   }
+
+   @media only screen and (min-width: 768px) {
+   
+      #Blog h3,h4{
+         width: 100%;
+      }
+
+      #Blog .Contenido{
+         width:100% ;
+      
+      }
+
+      #Blog Article{
+        width: 100%;
+      }
+      #Blog Image {
+
+        width: 50%;
+      
+      }
+
+      .Imagen1{
+          width: 100%;
+          text-align: center;
+      }
+
+      .Imagen2{
+          width: 50%;
+          text-align: center;
+      }
+      .Imagen3{
+          width: 50%;
+          text-align: center;
+      }
+
+     .Text1{
+       width: 50%;
+       text-align: center;
+     }
+
+     .Subtext1{
+      width: 50%;
+      text-align: center;
+    }
+
+     
+     
+     .Text2{
+         width: 50%;
+         text-align: center;
+
+     }
+     .Text3{
+         width: 50%;
+         text-align: center;
+     }
+     [class*="col-"] {
+      width: 100%;
+  }
+  }
